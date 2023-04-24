@@ -12,6 +12,16 @@ from youtubesearchpython.__future__ import VideosSearch
 from config import YOUTUBE_IMG_URL
 from AnonX import app
 
+themes = [
+    "anonx1",
+    "anonx2",
+    "anonx3",
+    "anonx4",
+    "anonx5",
+    "anonx6",
+    "anonx7",
+    "anonx8",
+]
 
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
